@@ -1,2 +1,14 @@
-<!-- Layout Relatório Mensal -->
-<Button android:text='Gerar Relatório'/>
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtRelatorio"
+        android:text="Relatório..."
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</ScrollView>
